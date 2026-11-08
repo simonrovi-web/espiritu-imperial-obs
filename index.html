@@ -7,7 +7,7 @@
 @font-face{font-family:"Roboto";font-weight:500;font-display:swap;src:url(sitio/fonts/roboto-latin-500-normal.woff2) format("woff2")}
 @font-face{font-family:"Roboto Condensed";font-weight:900;font-display:swap;src:url(sitio/fonts/roboto-condensed-latin-900-normal.woff2) format("woff2")}
 
-:root{--bg:#03152B;--bg2:#062447;--card:#0A2F5E;--line:rgba(255,255,255,.14);--ink:#F4F6FA;--mute:#B9C3D2;--acc:#C8102E;--accink:#FFFFFF;--acc2:#FF464B;--hero:radial-gradient(1200px 600px at 70% -10%,rgba(255,255,255,.10),transparent 60%),linear-gradient(180deg,#063661,#03152B);--heroink:#FFFFFF;
+:root{--bg:#03152B;--bg2:#062447;--card:#0A2F5E;--line:rgba(255,255,255,.14);--ink:#F4F6FA;--mute:#B9C3D2;--acc:#C8102E;--accink:#FFFFFF;--acc2:#FF464B;--hero:radial-gradient(1200px 600px at 70% -10%,rgba(255,255,255,.10),transparent 60%),linear-gradient(180deg,#063661,#03152B);--heroink:#FFFFFF;--herobtn:#03152B;
  --disp:"Roboto Condensed",system-ui,sans-serif;--body:"Roboto",system-ui,sans-serif;--r:10px;--g:clamp(16px,4vw,48px)}
 *{box-sizing:border-box;margin:0}
 body{background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--body);-webkit-font-smoothing:antialiased}
@@ -29,7 +29,7 @@ a{color:inherit}
 .b:hover{transform:translateY(-1px)}
 .b--acc{background:var(--acc);border-color:var(--acc);color:var(--accink)}
 .top .b--big{min-height:48px;padding:12px 22px;font-size:16px}
-.top .b--acc{background:var(--heroink);border-color:var(--heroink);color:var(--bg)}
+.top .b--acc{background:var(--heroink);border-color:var(--heroink);color:var(--herobtn)}
 .b:focus-visible{outline:3px solid var(--acc2);outline-offset:3px}
 section{padding:clamp(48px,7vw,88px) 0;border-top:1px solid var(--line)}
 section:nth-of-type(even){background:var(--bg2)}
